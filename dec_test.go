@@ -25,7 +25,7 @@ func TestDecimalTestSuite(t *testing.T) {
 }
 
 func TestDecApproxEq(t *testing.T) {
-	// d1 = 0.55, d2 = 0.6, tol = 0.1
+	// d1 = 0.55, d2 = 0.6, tol = 0.1aaaaa
 	d1 := math.LegacyNewDecWithPrec(55, 2)
 	d2 := math.LegacyNewDecWithPrec(6, 1)
 	tol := math.LegacyNewDecWithPrec(1, 1)
